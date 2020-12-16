@@ -1,0 +1,169 @@
+/*You can also set margin for all four sides like this. margin: 0; */ 
+
+body{
+    margin: 0 0 0 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #f9f7cf;
+    background-color: #999b84;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    /* 100% = 16px = 1em */
+    font-size: 5.562rem;
+    margin-top: 50px;
+    color: #534e52; 
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-top: 0;
+    color: #F9E0AE;
+}
+
+.toph2{
+    color: #534e52;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #8ad7c1;
+}
+
+.p1{
+    margin-right: 30px;
+}
+
+.p2{
+    clear: ;
+}
+
+.intropara{
+    width: 20%;
+    margin: auto 550px auto 550px;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.pro{
+   text-decoration: underline;
+   font-weight: normal;
+
+}
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 400px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+hr{
+ 
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-color: #ffba93;
+    border-width: 7px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.comp-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.email{
+    text-decoration: none;
+    border: 1px solid #30e3ca;
+    padding: 10px 20px;
+    font-size: ;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    margin: 20px;
+    color: #11999e;
+    transition: 0.8s;
+    margin: 40px auto 40px;
+}
+
+.email:hover{
+    color: #fd8c04;
+    border: 3px solid #ffc85c;
+    background-color: #ffc85c;
+}
+
+.email::before{
+    color: slateblue;
+}
+
+.contact-me{
+    position: relative;
+}
+
+footer{
+     margin: 30px auto 0px auto;
+     background-color: #79a3b1;
+     padding: 30px;
+
+ }
+
+.linked{
+    margin: auto 20px auto 20px;
+    text-decoration: none;
+    color: #30e3ca;
+}
+
+.twitter{
+    margin: auto 20px auto 20px; 
+    text-decoration: none;
+    color: #30e3ca;
+}
+
+.website{
+    margin: auto 20px auto 20px;  
+    text-decoration: none;
+    color: #30e3ca;
+}
+
+a:hover{
+    color:#E4F9F5;
+}
+
+.footer-p{
+    margin: 60px auto 0px;
+    color: aliceblue; 
+}
